@@ -11,4 +11,4 @@ For the compilation and execution of the code was done using the following comma
 - Handling non-square matrices (N×M × M×K)
 - Correct memory allocation with `cudaMalloc` / `cudaMemcpy`
 - Debugging memory corruption and boundary conditions
-- Usage of shared memory and "Bank conflicts" handling and prevention
+- Usage of shared memory, handling prevention of "Bank conflicts" 
