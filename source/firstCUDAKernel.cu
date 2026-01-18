@@ -1,3 +1,6 @@
+/* 
+This is my first attemt at creating a kernel that can be used to change a triangles position if the right changes are made
+*/
 #include <iostream>
 #include <cuda_runtime.h>
 #include <cmath>
@@ -66,3 +69,4 @@ int main ()
     
     return 0;
 }
+
