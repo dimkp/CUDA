@@ -90,12 +90,11 @@ int main ()
     for (int i = 0; i < BLOCKS_PER_GRID; i++)
         c += partialC[i];
 
-    printf("Final result: %d\n", c);
+    printf("GPU result: %d\n", c);
 
     long long cpu_result = 0;
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) 
         cpu_result += (long long)ha[i] * hb[i];
-    }
     
     printf("CPU result  : %lld\n", cpu_result);
 
