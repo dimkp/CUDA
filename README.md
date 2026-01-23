@@ -15,12 +15,11 @@ For `Kaggle notebooks` the compilation and execution of the code was done using 
 - Mapping data elements to GPU threads correctly
 
 ### Kernel Launch & Execution
-- Correct usage of CUDA kernel launch syntax:
-  `kernel<<<blocks, threads>>>(...);`
--  Understanding and fixing common launch errors:
-  - invalid argument
-  - launching kernels with blocks = 0
-  - Proper synchronization with: `cudaDeviceSynchronize();`
+- Correct usage of CUDA kernel launch syntax: `kernel<<<blocks, threads>>>(...);`
+- Understanding and fixing common launch errors:
+   - invalid argument
+   - launching kernels with blocks = 0
+   - Proper synchronization with: `cudaDeviceSynchronize();`
 
 ### Memory Management (Host <-> Device)
 - Allocating GPU memory using: `cudaMalloc`
