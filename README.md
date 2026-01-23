@@ -1,7 +1,7 @@
 # CUDA
 The repository contains Kernels from my CUDA learning journey and practice code. The "CUDA by example" book is being used.
 The code was created using CUDA C++ and was writen on Kaggle notebooks using the GPU T4 accelerator or on my local system, using Visual Studio 2022 and a RTX 3060 TI graphics card.
-For the compilation and execution of the code was done using the following commands:
+The compilation and execution of the code was done using the following commands:
 - !nvcc main.cu -o main
 - !./main
 
